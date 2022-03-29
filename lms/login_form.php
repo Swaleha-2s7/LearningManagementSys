@@ -23,7 +23,7 @@
 									if(html=='true')
 									{
 									$.jGrowl("Loading File Please Wait......", { sticky: true });
-									$.jGrowl("Welcome to CHMSC Learning Management System", { header: 'Access Granted' });
+									$.jGrowl("Welcome to LMS System", { header: 'Access Granted' });
 									var delay = 1000;
 										setTimeout(function(){ window.location = 'dasboard_teacher.php'  }, delay);  
 									}else if (html == 'true_student'){
@@ -41,7 +41,7 @@
 						});
 						</script>
 			<div id="button_form" class="form-signin" >
-			New to CHMSC OLMS
+			<!-- <h4>New User</h4> -->
 			<hr>
 				<h3 class="form-signin-heading"><i class="icon-edit"></i> Sign up</h3>
 				<button data-placement="top" title="Sign In as Student" id="signin_student" onclick="window.location='signup_student.php'" id="btn_student" name="login" class="btn btn-info" type="submit">I`m a Student</button>
