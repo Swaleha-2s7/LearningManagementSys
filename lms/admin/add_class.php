@@ -2,14 +2,14 @@
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Add Class</div>
+                                <div class="muted pull-left">Add Course</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
 								<form method="post">
 										<div class="control-group">
                                           <div class="controls">
-                                            <input name="class_name" class="input focused" id="focusedInput" type="text" placeholder = "Class Name" required>
+                                            <input name="class_name" class="input focused" id="focusedInput" type="text" placeholder = "Course Name" required>
                                           </div>
                                         </div>
 										

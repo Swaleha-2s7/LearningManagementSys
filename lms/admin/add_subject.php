@@ -12,21 +12,21 @@
 		                        <!-- block -->
 		                        <div class="block">
 		                            <div class="navbar navbar-inner block-header">
-		                                <div class="muted pull-left">Add Subject</div>
+		                                <div class="muted pull-left">Add Lessons</div>
 		                            </div>
 		                            <div class="block-content collapse in">
 									<a href="subjects.php"><i class="icon-arrow-left"></i> Back</a>
 									    <form class="form-horizontal" method="post">
 										<div class="control-group">
-											<label class="control-label" for="inputEmail">Subject Code</label>
+											<label class="control-label" for="inputEmail">Lesson Code</label>
 											<div class="controls">
-											<input type="text" name="subject_code" id="inputEmail" placeholder="Subject Code">
+											<input type="text" name="subject_code" id="inputEmail" placeholder="Lesson Code">
 											</div>
 										</div>
 										<div class="control-group">
-											<label class="control-label" for="inputPassword">Subject Title</label>
+											<label class="control-label" for="inputPassword">Lesson Title</label>
 											<div class="controls">
-											<input type="text" class="span8" name="title" id="inputPassword" placeholder="Subject Title" required>
+											<input type="text" class="span8" name="title" id="inputPassword" placeholder="Lesson Title" required>
 											</div>
 										</div>
 										<div class="control-group">

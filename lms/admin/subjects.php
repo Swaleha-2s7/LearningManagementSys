@@ -8,11 +8,11 @@
 		
                 <div class="span9" id="content">
                      <div class="row-fluid">
-					 <a href="add_subject.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add Subject</a>
+					 <a href="add_subject.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add Lesson</a>
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Subject List</div>
+                                <div class="muted pull-left">Lesson List</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -23,8 +23,8 @@
 										<thead>
 										  <tr>
 											    <th></th>
-												<th>Subject Code</th>
-												<th>Subject Title</th>
+												<th>Lesson Code</th>
+												<th>Lesson Title</th>
 												<th></th>
 										   </tr>
 										</thead>

@@ -5,19 +5,24 @@
                             <a href="teachers.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Teachers</a>
                         </li>
 						<li class="active">
-                            <a href="class.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Categories</a>
+                            <a href="class.php"><i class="icon-chevron-right"></i><i class="icon-list-alt"></i> Courses</a>
                         </li>
                         <li>
-                            <a href="subjects.php"><i class="icon-chevron-right"></i><i class="icon-list-alt"></i> Subject</a>
+                            <a href="subjects.php"><i class="icon-chevron-right"></i><i class="icon-list-alt"></i> Lessons</a>
                         </li>
 						
 						<li>
-                            <a href="department.php"><i class="icon-chevron-right"></i><i class="icon-building"></i> Department</a>
+                            <a href="department.php"><i class="icon-chevron-right"></i><i class="icon-building"></i> Categories</a>
+                        </li>
+                        <li>
+                            <a href="test.php"><i class="icon-chevron-right"></i><i class="icon-list-alt"></i> Test</a>
                         </li>
 						<li>
                             <a href="students.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Students</a>
                         </li>
-						
+						<li>
+                            <a href="student_report.php"><i class="icon-chevron-right"></i><i class="icon-user"></i> Reports</a>
+                        </li>
                         <!--
                         <li>
                             <a href="admin_user.php"><i class="icon-chevron-right"></i><i class="icon-user"></i> Admin Users</a>

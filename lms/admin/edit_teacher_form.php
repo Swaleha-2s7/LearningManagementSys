@@ -22,7 +22,7 @@
 									?>
 										
 										  <div class="control-group">
-											<label>Department:</label>
+											<label>Class:</label>
                                           <div class="controls">
                                             <select name="department"  class="chzn-select"required>
 											<?php

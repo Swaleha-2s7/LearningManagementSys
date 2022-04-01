@@ -2,7 +2,7 @@
   /* mysqli connection */
 	include( $_SERVER['DOCUMENT_ROOT']."/datatables/mysqli.php" ); /* ;-) */
 	
-	$gaSql['link'] =  mysqli_connect( $gaSql['server'], $gaSql['user'], $gaSql['password']  ) or
+	$gaSql['link'] =  mysqli_pconnect( $gaSql['server'], $gaSql['user'], $gaSql['password']  ) or
 		die( 'Could not open connection to server' );
 	
 	mysqli_select_db( $gaSql['db'], $gaSql['link'] ) or 
