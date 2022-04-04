@@ -1,4 +1,4 @@
-<!DOCTYPE HTML5>
+<!DOCTYPE html>
 <html class="no-js">
     <head>
         <title>Learning Management System</title>
