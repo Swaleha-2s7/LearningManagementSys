@@ -11,6 +11,7 @@
 				<?php } ?>
 				</a>
 			</li>
+
 			<?php
 			$message_query = mysqli_query($conn,"select * from message where reciever_id = '$session_id' and message_status != 'read' ")or die(mysqli_error());
 			$count_message = mysqli_num_rows($message_query);
@@ -23,7 +24,13 @@
 				<?php } ?>
 			</a>
 			</li>
+			<li class=""><a href="dashboard_student.php"><i class="icon-chevron-right"></i><i class="icon-group"></i>&nbsp;Subscriptions</a></li>
+
+
 			 <li class=""><a href="backpack.php"><i class="icon-chevron-right"></i><i class="icon-suitcase"></i>&nbsp;Backpack</a></li>
+		
+		
+		
 		</ul>
 					<?php /* include('search_other_class.php');  */?>	
 </div>
