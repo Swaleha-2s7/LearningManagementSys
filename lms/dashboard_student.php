@@ -20,7 +20,7 @@
 							<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
-					 
+					 	
 				
 					 
                         <!-- block -->
