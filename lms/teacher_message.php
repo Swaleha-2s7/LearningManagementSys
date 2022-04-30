@@ -16,7 +16,7 @@
 								?>
 								<li><a href="#">Message</a><span class="divider">/</span></li>
 								<li><a href="#"><b>Inbox</b></a><span class="divider">/</span></li>
-								<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a></li>
+								<li><a href="#">School Year: 2021 - 2022 <!-- <?php echo $school_year_query_row['school_year']; ?> --> </a></li>
 						</ul>
 						 <!-- end breadcrumb -->
 					 

@@ -14,8 +14,8 @@
 								$school_year_query_row = mysqli_fetch_array($school_year_query);
 								$school_year = $school_year_query_row['school_year'];
 								?>
-								<li><a href="#"><b>My Class</b></a><span class="divider">/</span></li>
-								<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a></li>
+								<li><a href="#"><b>MY CLASS</b></a><span class="divider">/</span></li>
+								<li><a href="#">School Year: 2021 - 2022 <!-- <?php echo $school_year_query_row['school_year']; ?> --> </a></li>
 						</ul>
 						 <!-- end breadcrumb -->
                         <!-- block -->

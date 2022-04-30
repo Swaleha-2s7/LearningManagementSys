@@ -15,7 +15,8 @@
 						$school_year = $school_year_query_row['school_year'];
 						?>
 							<li><a href="#"><b>My Class</b></a><span class="divider">/</span></li>
-							<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a><span class="divider">/</span></li>
+							<li><a href="#">School Year: 2021 - 2022</a><span class="divider">/</span></li>
+							
 							<li><a href="#"><b>Notification</b></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
@@ -61,7 +62,7 @@
 					$query_yes_read = mysqli_query($conn,"select * from notification_read_teacher where notification_id = '$id' and teacher_id = '$session_id'")or die(mysqli_error());
 					$read_row = mysqli_fetch_array($query_yes_read);
 					
-					$yes = $read_row['student_read']; 
+					$yes = $read_row['student_read'];
 				
 					?>
 									<div class="post"  id="del<?php echo $id; ?>">
